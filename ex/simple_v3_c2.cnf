@@ -1,0 +1,6 @@
+c simple_v3_c2.cnf
+c
+c satisfiable
+p cnf 3 2
+1 -3 0
+2 3 -1 0

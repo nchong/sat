@@ -1,0 +1,5 @@
+Just for my own amusement, a simple sat solver using the DPLL algorithm.
+Give the solver the filename of a DIMACS file or a formula (as a list-of-list of literals).
+
+$ python solver.py ex/simple_v3_c2.cnf
+$ python solver.py "[[-1,2],[-2,-3],[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]"
