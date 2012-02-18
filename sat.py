@@ -74,5 +74,5 @@ def solve_dpll(f, trace=False):
         return dfs(g, remove(sym,abs(l)), v+[l])
       l, s = sym[0], sym[1:]
       if trace: print "[trace] Splitting on ", l
-      return dfs(f, s, v+[l]) or dfs(s, v+[-l])
+      return dfs(f, s, v+[l]) or dfs(f, s, v+[-l])
   return dfs(f, symbols_of(f), [])
